@@ -1,9 +1,9 @@
 function App() {
   return (
     <>
-      <h1>Aadai Vijayakumar</h1>
+      <h1>Aadai Rajadurai</h1>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
