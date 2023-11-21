@@ -6,6 +6,7 @@ import PhotoCard from "./components/photo-card/PhotoCard";
 function App() {
   return (
     <>
+      <Header />
       <Carousel />
       <PhotoCard />
       <GridContainer />
