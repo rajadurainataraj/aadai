@@ -1,7 +1,9 @@
+import Header from "./layouts/Header"
+
 function App() {
   return (
     <>
-      <h1>Aadai Rajadurai2</h1>
+      <Header />
     </>
   )
 }
