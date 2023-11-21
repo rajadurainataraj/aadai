@@ -1,3 +1,17 @@
-/* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.carousal-container {
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.carousal-container > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
