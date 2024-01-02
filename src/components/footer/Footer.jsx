@@ -98,87 +98,89 @@ const FooterContainer = styled.div`
 
 const Footer = () => {
   return (
-    <FooterContainer>
-      <div>
-        <ul>
-          <h2>Aadai Online</h2>
-          <li>+91 99444 32385</li>
-          <li>customercare@aadaionline.in</li>
-        </ul>
-        <ul>
-          <li>Pages</li>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#">Why Aadai Online</a>
-          </li>
-        </ul>
-        <ul>
-          <li>Help</li>
-          <li>
-            <a href="#">Return Policy</a>
-          </li>
-          <li>
-            <a href="#">Order Tracking</a>
-          </li>
-          <li>
-            <a href="#">Terms & Conditions</a>
-          </li>
-        </ul>
-        <ul>
-          <li>Quick Links</li>
-          <li>
-            <a href="#">New Arrivals</a>
-          </li>
-          <li>
-            <a href="#">Best Sellers</a>
-          </li>
-          <li>
-            <a href="#">Size Guide</a>
-          </li>
-          <li>
-            <a href="#">FAQs</a>
-          </li>
-        </ul>
-      </div>
-      <div></div>
-      <div>
-        <figure>
-          <img
-            src="https://www.poomex.in/public/vendor/conceps-admin/assets/poomax_front/images/card.png"
-            alt="payment"
-            width={"300px"}
-            height={"25px"}
-          />
-        </figure>
+    <>
+      <FooterContainer>
         <div>
-          <p>Copyright © 2021 Poomex Clothing Company All Rights Reserved.</p>
-          <p>Developed by Conceps</p>
+          <ul>
+            <h2>Aadai Online</h2>
+            <li>+91 99444 32385</li>
+            <li>customercare@aadaionline.in</li>
+          </ul>
+          <ul>
+            <li>Pages</li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Why Aadai Online</a>
+            </li>
+          </ul>
+          <ul>
+            <li>Help</li>
+            <li>
+              <a href="#">Return Policy</a>
+            </li>
+            <li>
+              <a href="#">Order Tracking</a>
+            </li>
+            <li>
+              <a href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+          <ul>
+            <li>Quick Links</li>
+            <li>
+              <a href="#">New Arrivals</a>
+            </li>
+            <li>
+              <a href="#">Best Sellers</a>
+            </li>
+            <li>
+              <a href="#">Size Guide</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+          </ul>
         </div>
+        <div></div>
         <div>
+          <figure>
+            <img
+              src="https://www.poomex.in/public/vendor/conceps-admin/assets/poomax_front/images/card.png"
+              alt="payment"
+              width={"300px"}
+              height={"25px"}
+            />
+          </figure>
           <div>
-            <TiSocialFacebook />
+            <p>Copyright © 2021 Poomex Clothing Company All Rights Reserved.</p>
+            <p>Developed by Conceps</p>
           </div>
+          <div>
+            <div>
+              <TiSocialFacebook />
+            </div>
 
-          <div>
-            <TiSocialInstagram />
-          </div>
-          <div>
-            <TiSocialTwitter />
-          </div>
-          <div>
-            <TiSocialYoutube />
+            <div>
+              <TiSocialInstagram />
+            </div>
+            <div>
+              <TiSocialTwitter />
+            </div>
+            <div>
+              <TiSocialYoutube />
+            </div>
           </div>
         </div>
-      </div>
-    </FooterContainer>
+      </FooterContainer>
+    </>
   );
 };
 

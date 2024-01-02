@@ -1,17 +1,23 @@
 import styled from "styled-components";
 import Carousel from "../Carousel/carousel";
+import GridCard from "./GridCard";
 
 const GridWrapper = styled.div`
+  max-width: 1200px;
+  margin: 10px auto;
   display: grid;
-  grid-template-columns: 650px repeat(2, 1fr);
-  grid-auto-rows: minmax(240px, auto);
+  grid-template-columns: 650px repeat(2, 280px);
+  grid-auto-rows: minmax(100px, auto);
   gap: 10px;
-  > div {
-    background-color: lightcoral;
-  }
+
   > div:nth-child(1) {
     grid-column: 1 / 2;
     grid-row: 1/3;
+    min-width: 100%;
+  }
+  > div > img {
+    width: 100%;
+    height: 100%;
   }
 `;
 
@@ -27,17 +33,9 @@ const GridContainer = () => {
       <div>
         <Carousel />
       </div>
-      {images.map((image, index) => {
-        return (
-          <div key={index}>
-            <img src={image} alt="random" />
-          </div>
-        );
+      {images.map((img, index) => {
+        return <GridCard key={index} image={img} />;
       })}
-      {/* <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div> */}
     </GridWrapper>
   );
 };
